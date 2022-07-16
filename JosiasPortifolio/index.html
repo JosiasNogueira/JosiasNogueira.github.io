@@ -4,46 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Portifólio</title>
+  <link rel="stylesheet" alt="Imagem Josias Nogueira" href="style.css">
 </head>
-<style>
-  h1{
-    background-color: rgb(187, 93, 93);
-  }
-  .name-font {
-    font-style: italic;
-    font-size: 20px;
-  }
-
-  .qualidades_font {
-    font-style: unset;
-    font-weight: 600;
-  }
-
-  body {
-    background-color:white;
-  }
-  p{
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-  }
-  h4{
-    font-family: 'Lato', sans-serif;
-    font-size: 25px;
-    background-color: rgb(187, 93, 93);
-  }
-  ul{
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-  }
-  .circle-image{
-    border-radius: 100%;
-  }
-
-</style>
 
 <body>
-  <h1>Portifólio Josias Nogueira</h1>
-<img class="circle-image" src="./jn.jpg" alt="Foto Josias" width="100">
+  <div>
+    <h1 class="name-font">Portifólio Josias Nogueira</h1>
+    <div class="image-container">
+      <img id="minha-foto" src="./jn.jpg" alt="Foto Josias" width="100">
+      <p class="descricao"> Olá, meu nome é<strong>Josias Nogueira</strong>,tenho 38 anos ,moro em Almirante Tamandare, PR, cidade
+        metropolitana de
+        Curitiba.
+      </p>
+    </div>
+  </div>
 
   <p>Índice</p>
   <ul>
@@ -51,17 +25,13 @@
     <li><a href="#Qualidades">Qualidades</a> </li>
     <li><a href="#Diciplinas">Diciplinas</a> </li>
   </ul>
-  <p id="Eu"> Olá, meu nome é
-    <strong class="name-font">Josias Nogueira</strong>,tenho 38 anos ,moro em Almirante Tamandare, PR, cidade
-    metropolitana de
-    Curitiba.
-  </p>
   <ul class="qualidades_font">
     <li id="Qualidades">Sou uma pessoa bem extrovestida</li>
     <li>Comunicativo</li>
     <li>Gosto de trabalho em equipe</li>
     <li>Busco aumentar o meu conhecimento na area em que estou trabalhando sempre que possível</li>
   </ul>
+
   <p>sou um estudante da escola de DEVs da Trybe, estou estudando na Trybe
     desde o dia 04/07/2022, onde vou estudar ao longo de 1 ano os seguintes conteúdos:</p>
   <ul>
@@ -93,11 +63,11 @@
   </ul>
   <p>Gosto de tirar minhas duvidas referente ao JS neste <a
       href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Link</a></p>
-    <p>Projetos <a> colocar links</a>
-      <a> colocar links</a>
-      <a> colocar links</a>
-      <a> colocar links</a>
-    </p>
-    </body>
+  <p>Projetos <a> colocar links</a>
+    <a> colocar links</a>
+    <a> colocar links</a>
+    <a> colocar links</a>
+  </p>
+</body>
 
 </html>
